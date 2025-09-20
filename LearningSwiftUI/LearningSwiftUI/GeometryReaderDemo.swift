@@ -39,10 +39,10 @@ struct Triangle: Shape {
 
 struct GeometryReaderDemo: View {
     
-    let shapes: [Int: any Shape] = [
-        0: (Circle()),
-        1: (RoundedRectangle(cornerRadius: 30)),
-        2: (Triangle())
+    let shapes: [Int: AnyShape] = [
+        0: AnyShape(Circle()),
+        1: AnyShape(RoundedRectangle(cornerRadius: 30)),
+        2: AnyShape(Triangle())
     ]
     
     let colors: [Color] = [.indigo, .blue, .green, .yellow, .orange, .red]
@@ -53,7 +53,7 @@ struct GeometryReaderDemo: View {
         return Double(1 - (currentPosition / maxHeight))
     }
     
-    func getShape(index: Int) -> any Shape {
+    func getShape(index: Int) -> AnyShape {
         shapes[index % shapes.count]!
     }
     
@@ -64,7 +64,7 @@ struct GeometryReaderDemo: View {
                 VStack {
                     ForEach(1..<100) { index in
                         GeometryReader { geometry in
-                            getShape(index: index)
+                            getShape(index: 1)
                                 .fill(colors[index%colors.count])
                                 .rotation3DEffect(
                                     Angle(degrees: getRateOfChange(geometry) * 180),
