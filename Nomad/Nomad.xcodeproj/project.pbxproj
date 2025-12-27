@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		02D9E9882EFB0F1700009B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D9E96F2EFB0F1500009B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D9E9762EFB0F1500009B75;
+			remoteInfo = Nomad;
+		};
+		02D9E9922EFB0F1700009B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D9E96F2EFB0F1500009B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D9E9762EFB0F1500009B75;
+			remoteInfo = Nomad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D9E9772EFB0F1500009B75 /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D9E9872EFB0F1700009B75 /* NomadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D9E9912EFB0F1700009B75 /* NomadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		02D9E9792EFB0F1500009B75 /* Nomad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Nomad;
+			sourceTree = "<group>";
+		};
+		02D9E98A2EFB0F1700009B75 /* NomadTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NomadTests;
+			sourceTree = "<group>";
+		};
+		02D9E9942EFB0F1700009B75 /* NomadUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NomadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D9E9742EFB0F1500009B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E9842EFB0F1700009B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E98E2EFB0F1700009B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D9E96E2EFB0F1500009B75 = {
+			isa = PBXGroup;
+			children = (
+				02D9E9792EFB0F1500009B75 /* Nomad */,
+				02D9E98A2EFB0F1700009B75 /* NomadTests */,
+				02D9E9942EFB0F1700009B75 /* NomadUITests */,
+				02D9E9782EFB0F1500009B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D9E9782EFB0F1500009B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D9E9772EFB0F1500009B75 /* Nomad.app */,
+				02D9E9872EFB0F1700009B75 /* NomadTests.xctest */,
+				02D9E9912EFB0F1700009B75 /* NomadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D9E9762EFB0F1500009B75 /* Nomad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D9E99B2EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "Nomad" */;
+			buildPhases = (
+				02D9E9732EFB0F1500009B75 /* Sources */,
+				02D9E9742EFB0F1500009B75 /* Frameworks */,
+				02D9E9752EFB0F1500009B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				02D9E9792EFB0F1500009B75 /* Nomad */,
+			);
+			name = Nomad;
+			packageProductDependencies = (
+			);
+			productName = Nomad;
+			productReference = 02D9E9772EFB0F1500009B75 /* Nomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D9E9862EFB0F1700009B75 /* NomadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D9E99E2EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "NomadTests" */;
+			buildPhases = (
+				02D9E9832EFB0F1700009B75 /* Sources */,
+				02D9E9842EFB0F1700009B75 /* Frameworks */,
+				02D9E9852EFB0F1700009B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D9E9892EFB0F1700009B75 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02D9E98A2EFB0F1700009B75 /* NomadTests */,
+			);
+			name = NomadTests;
+			packageProductDependencies = (
+			);
+			productName = NomadTests;
+			productReference = 02D9E9872EFB0F1700009B75 /* NomadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02D9E9902EFB0F1700009B75 /* NomadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D9E9A12EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "NomadUITests" */;
+			buildPhases = (
+				02D9E98D2EFB0F1700009B75 /* Sources */,
+				02D9E98E2EFB0F1700009B75 /* Frameworks */,
+				02D9E98F2EFB0F1700009B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D9E9932EFB0F1700009B75 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02D9E9942EFB0F1700009B75 /* NomadUITests */,
+			);
+			name = NomadUITests;
+			packageProductDependencies = (
+			);
+			productName = NomadUITests;
+			productReference = 02D9E9912EFB0F1700009B75 /* NomadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D9E96F2EFB0F1500009B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					02D9E9762EFB0F1500009B75 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					02D9E9862EFB0F1700009B75 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 02D9E9762EFB0F1500009B75;
+					};
+					02D9E9902EFB0F1700009B75 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 02D9E9762EFB0F1500009B75;
+					};
+				};
+			};
+			buildConfigurationList = 02D9E9722EFB0F1500009B75 /* Build configuration list for PBXProject "Nomad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D9E96E2EFB0F1500009B75;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02D9E9782EFB0F1500009B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D9E9762EFB0F1500009B75 /* Nomad */,
+				02D9E9862EFB0F1700009B75 /* NomadTests */,
+				02D9E9902EFB0F1700009B75 /* NomadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D9E9752EFB0F1500009B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E9852EFB0F1700009B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E98F2EFB0F1700009B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D9E9732EFB0F1500009B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E9832EFB0F1700009B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D9E98D2EFB0F1700009B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D9E9892EFB0F1700009B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D9E9762EFB0F1500009B75 /* Nomad */;
+			targetProxy = 02D9E9882EFB0F1700009B75 /* PBXContainerItemProxy */;
+		};
+		02D9E9932EFB0F1700009B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D9E9762EFB0F1500009B75 /* Nomad */;
+			targetProxy = 02D9E9922EFB0F1700009B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D9E9992EFB0F1700009B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02D9E99A2EFB0F1700009B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D9E99C2EFB0F1700009B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nomad/Preview Content\"";
+				DEVELOPMENT_TEAM = WUT3LDJ9WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nomad;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nomad uses your location to tag photos with where they were taken.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Nomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D9E99D2EFB0F1700009B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nomad/Preview Content\"";
+				DEVELOPMENT_TEAM = WUT3LDJ9WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nomad;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nomad uses your location to tag photos with where they were taken.\nNomad uses your location to tag photos with where they were taken.\nNomad uses your location to tag photos with where they were taken.\nNomad uses your location to tag photos with where they were taken.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Nomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02D9E99F2EFB0F1700009B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nomad";
+			};
+			name = Debug;
+		};
+		02D9E9A02EFB0F1700009B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nomad";
+			};
+			name = Release;
+		};
+		02D9E9A22EFB0F1700009B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nomad;
+			};
+			name = Debug;
+		};
+		02D9E9A32EFB0F1700009B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nomad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D9E9722EFB0F1500009B75 /* Build configuration list for PBXProject "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D9E9992EFB0F1700009B75 /* Debug */,
+				02D9E99A2EFB0F1700009B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D9E99B2EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D9E99C2EFB0F1700009B75 /* Debug */,
+				02D9E99D2EFB0F1700009B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D9E99E2EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "NomadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D9E99F2EFB0F1700009B75 /* Debug */,
+				02D9E9A02EFB0F1700009B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D9E9A12EFB0F1700009B75 /* Build configuration list for PBXNativeTarget "NomadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D9E9A22EFB0F1700009B75 /* Debug */,
+				02D9E9A32EFB0F1700009B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D9E96F2EFB0F1500009B75 /* Project object */;
+}
